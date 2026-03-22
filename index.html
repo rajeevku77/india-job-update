@@ -1,86 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>India Job Update</title>
+<title>India Job Update</title>
 
-  <style>
-    body {
-      font-family: Arial;
-      margin: 0;
-      background: #f5f5f5;
-    }
+<style>
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+  margin: 0;
+}
 
-    header {
-      background: #007bff;
-      color: white;
-      padding: 15px;
-      text-align: center;
-    }
+.header {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
 
-    .container {
-      padding: 10px;
-    }
+.container {
+  padding: 10px;
+}
 
-    .job-box {
-      background: white;
-      margin: 10px 0;
-      padding: 10px;
-      border-radius: 5px;
-    }
+.job-box {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
-    .btn {
-      display: inline-block;
-      padding: 6px 12px;
-      margin-top: 5px;
-      background: green;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-    }
+.job-box h3 {
+  margin: 0;
+}
 
-    .btn-blue {
-      background: blue;
-    }
-  </style>
+.job-box p {
+  color: gray;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-top: 8px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.apply { background: green; }
+.download { background: blue; }
+.result { background: red; }
+
+</style>
 </head>
 
 <body>
 
-<header>
-  <h2>India Job Update</h2>
-</header>
+<div class="header">India Job Update</div>
 
 <div class="container">
 
-  <!-- Job 1 -->
-  <div class="job-box">
-    <h3>SSC GD Constable 2026</h3>
-    <p>10th pass ke liye bharti</p>
-    <a href="https://ssc.nic.in" target="_blank" class="btn">Apply</a>
-  </div>
+<div class="job-box">
+<h3>SSC GD Constable 2026</h3>
+<p>10th pass ke liye bharti</p>
+<a href="https://ssc.nic.in" target="_blank" class="apply">Apply</a>
+</div>
 
-  <!-- Job 2 -->
-  <div class="job-box">
-    <h3>Railway Group D Vacancy</h3>
-    <p>Railway me new recruitment</p>
-    <a href="https://indianrailways.gov.in" target="_blank" class="btn">Apply</a>
-  </div>
+<div class="job-box">
+<h3>Railway Group D Vacancy</h3>
+<p>Railway me new recruitment</p>
+<a href="https://indianrailways.gov.in" target="_blank" class="btn apply">Apply Now</a>
+</div>
 
-  <!-- Admit Card -->
-  <div class="job-box">
-    <h3>SSC MTS Admit Card</h3>
-    <a href="https://ssc.nic.in" target="_blank" class="btn btn-blue">Download</a>
-  </div>
+<div class="job-box">
+<h3>SSC MTS Admit Card</h3>
+<a href="https://ssc.nic.in" target="_blank" class="btn download">Download</a>
+</div>
 
-  <!-- Result -->
-  <div class="job-box">
-    <h3>10th Result 2026</h3>
-    <a href="https://results.nic.in" target="_blank" class="btn btn-blue">Check Result</a>
-  </div>
+<div class="job-box">
+<h3>10th Result 2026</h3>
+<a href="#" class="btn result">Check Result</a>
+</div>
 
 </div>
 
 </body>
 </html>
-
-
